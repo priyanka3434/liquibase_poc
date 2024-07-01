@@ -1,0 +1,19 @@
+-- -- liquibase formatted sql
+-- -- changeset priyanka:1704030593706-1
+-- create table IF NOT EXISTS company (
+--     id int primary key auto_increment not null,
+--     name varchar(50) not null,
+--     address1 varchar(50),
+--     address2 varchar(50),
+--     city varchar(30)
+-- );
+-- INSERT INTO `bgc_chitale`.`company` (`name`, `address1`, `address2`, `city`)
+-- VALUES ('kalpesh', 'sangli', 'pune', 'sangli');
+-- INSERT INTO `bgc_chitale`.`company` (`name`, `address1`, `address2`, `city`)
+-- VALUES ('sadsad', 'sangli', 'pune', 'sangli');
+-- INSERT INTO `bgc_chitale`.`company` (`name`, `address1`, `address2`, `city`)
+-- VALUES ('sadsad', 'sangli', 'pune', 'sangli');
+-- DELETE FROM `bgc_chitale`.`company`
+-- WHERE (`id` = '2');
+-- DELETE FROM `bgc_chitale`.`company`
+-- WHERE (`id` = '5');
